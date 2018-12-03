@@ -1,0 +1,16 @@
+
+		<!DOCTYPE order
+		[
+		<!ELEMENT order (pizza)>
+		<!ELEMENT pizza (size,order,type)>
+		<!ELEMENT size (#PCDATA)>
+		<!ELEMENT order (#PCDATA)>
+		<!ELEMENT type (#PCDATA)>
+		]>
+
+		<order number="1">
+			<pizza number="1">
+				<size>Small</size>
+				<crust>Thin</crust>
+			</pizza>
+		 </order>
